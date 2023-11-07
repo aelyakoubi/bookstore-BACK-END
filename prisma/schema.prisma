@@ -1,0 +1,80 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// Additionally, we also get a reference to the related models
+
+enum ItemType {
+  BOOK
+  RECORD
+}
+
+// Here comes the edited info if  you have an shadow database link
+datasource db {
+  provider = "mysql"
+
+  url = env("DATABASE_URL")
+
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id       String  @id @default(uuid())
+  username String  @unique
+  password String
+  Orders   Order[]
+}
+
+//For Records 
+model Record {
+  id        String  @id @default(uuid())
+  title     String
+  artist    String
+  year      Int
+  available Boolean
+  genre     String
+
+  orders Order[]
+}
+
+//For Books
+model Book {
+  id        String  @id @default(uuid())
+  title     String
+  author    String
+  isbn      String
+  pages     Int
+  available Boolean
+  genre     String
+
+  orders Order[]
+}
+
+model Order {
+  id String @id @default(uuid())
+
+  order_type ItemType
+  // Relations by id
+  book_id    String?
+  record_id  String?
+
+  user_id String
+
+  order_date     DateTime
+  delivery_date  DateTime?
+  payment_method String
+  comment        String?
+
+  // Additionally, we also get a reference to the related models
+  user   User    @relation(fields: [user_id], references: [id])
+  book   Book?   @relation(fields: [book_id], references: [id])
+  record Record? @relation(fields: [record_id], references: [id])
+
+  @@index([book_id])
+  @@index([record_id])
+  @@index([user_id])
+}

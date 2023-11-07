@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "2",
+      "title": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "year": 1973,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "3",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "4",
+      "title": "Like a Virgin",
+      "artist": "Madonna",
+      "year": 1984,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "5",
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "year": 1991,
+      "available": true,
+      "genre": "Grunge"
+    },
+    {
+      "id": "6",
+      "title": "21",
+      "artist": "Adele",
+      "year": 2011,
+      "available": true,
+      "genre": "Soul"
+    }
+  ]
+}

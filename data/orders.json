@@ -1,0 +1,34 @@
+{
+  "orders": [
+    {
+      "id": "efdd09b1-46b3-4f52-8df3-35675a5c889a",
+      "order_type": "BOOK",
+      "book_id": "1",
+      "user_id": "5c1c37f6-3ee0-4c07-9c8f-5864f74e627d",
+      "order_date": "2023-07-28T12:00:00Z",
+      "delivery_date": "2023-08-05T00:00:00Z",
+      "payment_method": "Credit Card",
+      "comment": "Please gift wrap the book."
+    },
+    {
+      "id": "6a2c3d3d-0d13-47ed-a618-ebd32f7df4c0",
+      "order_type": "BOOK",
+      "book_id": "2",
+      "user_id": "84c6673c-6fd6-4184-9193-6111f58c70f7",
+      "order_date": "2023-07-27T10:30:00Z",
+      "delivery_date": "2023-08-02T00:00:00Z",
+      "payment_method": "PayPal",
+      "comment": "No rush for delivery."
+    },
+    {
+      "id": "7r7t8f4r-1d24-47ed-a618-ebd32f7df4c0",
+      "order_type": "RECORD",
+      "record_id": "1",
+      "user_id": "84c6673c-6fd6-4184-9193-6111f58c70f7",
+      "order_date": "2023-07-27T10:30:00Z",
+      "delivery_date": "2023-08-02T00:00:00Z",
+      "payment_method": "iDEAL",
+      "comment": "Leave the package at the door."
+    }
+  ]
+}

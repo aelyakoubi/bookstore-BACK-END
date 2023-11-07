@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "id": "5c1c37f6-3ee0-4c07-9c8f-5864f74e627d",
+        "username": "johnsmith",
+        "password": "P@ssw0rd"
+      },
+      {
+        "id": "84c6673c-6fd6-4184-9193-6111f58c70f7",
+        "username": "janedoe",
+        "password": "Secret123"
+      },
+      {
+        "id": "72e6876e-5684-4d20-a3ea-ae8482b7e635",
+        "username": "mikejones",
+        "password": "Summer21"
+      },
+      {
+        "id": "b418df60-825b-41e9-8fe9-293bb61fd4e7",
+        "username": "emilybrown",
+        "password": "Hello123"
+      },
+      {
+        "id": "c7a3bdf9-4c7e-428a-b0a9-9cb4a244a746",
+        "username": "davidwilson",
+        "password": "Welcome!"
+      }
+    ]
+  }
+  

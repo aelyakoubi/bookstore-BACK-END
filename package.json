@@ -1,0 +1,29 @@
+{
+  "name": "express-book-app",
+  "version": "1.0.0",
+  "description": "My first express app",
+  "main": "index.js",
+  "type": "module",
+  "prisma": {
+    "seed": "node ./prisma/seed.js"
+ },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Winc",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "@sentry/node": "^7.74.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.5.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

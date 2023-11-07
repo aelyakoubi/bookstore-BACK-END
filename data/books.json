@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "pages": 336,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "2",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "pages": 180,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "pages": 328,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "pages": 480,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "9780316769174",
+      "pages": 234,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "6",
+      "title": "To Kill a Kingdom",
+      "author": "Alexandra Christo",
+      "isbn": "9781250112682",
+      "pages": 368,
+      "available": true,
+      "genre": "Fantasy"
+    }
+  ]
+}
