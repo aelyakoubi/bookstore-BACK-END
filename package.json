@@ -6,7 +6,7 @@
   "type": "module",
   "prisma": {
     "seed": "node ./prisma/seed.js"
- },
+  },
   "scripts": {
     "dev": "nodemon index.js"
   },
@@ -24,6 +24,6 @@
     "winston": "^3.11.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.3"
   }
 }
