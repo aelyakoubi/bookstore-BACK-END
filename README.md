@@ -10,6 +10,7 @@ Security Authentication: Normal level with username and password / login and tok
 
 Set up:
 npm install, npm run dev
+---------------------------------------------------------------------------------
 
 
 This was my first Back-end project at the WincAcademy what was real educational and fun!
