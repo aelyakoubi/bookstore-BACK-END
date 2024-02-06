@@ -1,15 +1,14 @@
-Made with:
-Windows, Visual Studio Code
+Made with:```Windows, Visual Studio Code```
 -----------------------------------------------------
-Computer language: JavaScript, Node.JS, Prisma, MySQL
+Computer language: ```JavaScript, Node.JS, Prisma, MySQL```
 ------------------------------------------------------
-Logic: Routes, Middleware, Errorhandling
+Logic: ```Routes, Middleware, Errorhandling```
 ------------------------------------------------------
-Security Authentication: Normal level with username and password / login and token
+Security Authentication: ```Normal level with username and password / login and token```
 ----------------------------------------------------------------------------------
 
 Set up:
-npm install, npm run dev
+```npm install, npm run dev```
 ---------------------------------------------------------------------------------
 
 
