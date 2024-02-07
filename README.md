@@ -14,7 +14,7 @@ Set up:
 
 This was my first Back-end project at the WincAcademy what was real educational and fun!
 
-special was the learning of enum ItemType in my prisma.schema file to be able to create the record in the database:.
+special was the learning of enum ItemType in my prisma.schema file to be able to create the record in the database:
 
  enum ItemType {
   BOOK
