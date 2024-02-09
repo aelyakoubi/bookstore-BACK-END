@@ -34,3 +34,6 @@ curl --request POST \
 
 ![Bookstore3](https://github.com/aelyakoubi/bookstore-Back-end/assets/115151631/a8ed1c8f-46f2-4b1d-ab6e-09239abe5649)
 
+
+```Thanks and credits to WincAcademy in Amsterdam, The Netherlands!```
+
